@@ -49,11 +49,11 @@ python test.py --mode='full'
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@article{ulyanov2016instance,
-  title={Instance normalization: The missing ingredient for fast stylization},
-  author={Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor},
-  journal={arXiv preprint arXiv:1607.08022},
-  year={2016}
+@article{shao2019weakly,
+  title={Weakly-Supervised Unconstrained Action Unit Detection via Latent Feature Domain},
+  author={Shao, Zhiwen and Cai, Jianfei and Cham, Tat-Jen and Lu, Xuequan and Ma, Lizhuang},
+  journal={arXiv preprint arXiv:1903.10143},
+  year={2019}
 }
 
 ```
