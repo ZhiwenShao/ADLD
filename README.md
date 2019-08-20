@@ -10,7 +10,10 @@ This code was tested with PyTorch 0.4.0 and Python 2.7.
 Put [BP4D](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) and [EmotioNet](http://cbcsl.ece.ohio-state.edu/dbform_emotionet.html) into the folder "dataset" following the paths shown in the list files of the folder "data/list".
 
 ## Preprocessing
-- Prepare the training data
+- Conduct similarity transformation for face images
+```
+python dataset/face_transform.py
+```
 
 
 Format of the outputFile: 5 facial landmark locations (x1,y1,x2,y2...).
