@@ -176,7 +176,7 @@ def main(config):
                                                              invar_shape_enc, feat_gen, use_gpu=use_gpu)
 
             print('epoch =%d, f1 score mean=%f, accuracy mean=%f' %(epoch, f1score_arr.mean(), acc_arr.mean()))
-            print>> res_file, 'epoch\t%f\t%f' % (f1score_arr.mean(), acc_arr.mean())
+            print>> res_file, '%d\t%f\t%f' % (epoch, f1score_arr.mean(), acc_arr.mean())
             base_net.train(True)
             land_enc.train(True)
             au_enc.train(True)
