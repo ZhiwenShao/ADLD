@@ -75,15 +75,15 @@ def main(config):
     for epoch in range(config.start_epoch, config.n_epochs + 1):
 
         base_net.load_state_dict(
-            torch.load(config.write_path_prefix + config.mode + '/base_net_' + str(config.start_epoch) + '.pth'))
+            torch.load(config.write_path_prefix + config.mode + '/base_net_' + str(epoch) + '.pth'))
         land_enc.load_state_dict(
-            torch.load(config.write_path_prefix + config.mode + '/land_enc_' + str(config.start_epoch) + '.pth'))
+            torch.load(config.write_path_prefix + config.mode + '/land_enc_' + str(epoch) + '.pth'))
         au_enc.load_state_dict(
-            torch.load(config.write_path_prefix + config.mode + '/au_enc_' + str(config.start_epoch) + '.pth'))
+            torch.load(config.write_path_prefix + config.mode + '/au_enc_' + str(epoch) + '.pth'))
         invar_shape_enc.load_state_dict(
-            torch.load(config.write_path_prefix + config.mode + '/invar_shape_enc_' + str(config.start_epoch) + '.pth'))
+            torch.load(config.write_path_prefix + config.mode + '/invar_shape_enc_' + str(epoch) + '.pth'))
         feat_gen.load_state_dict(
-            torch.load(config.write_path_prefix + config.mode + '/feat_gen_' + str(config.start_epoch) + '.pth'))
+            torch.load(config.write_path_prefix + config.mode + '/feat_gen_' + str(epoch) + '.pth'))
 
         if test_type == 'source':
             f1score_arr, acc_arr = AU_detection_eval_src(dset_loaders[test_type]['test'], base_net, au_enc, use_gpu=use_gpu)
