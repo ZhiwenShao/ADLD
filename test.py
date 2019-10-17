@@ -107,7 +107,7 @@ if __name__ == '__main__':
     parser.add_argument('--au_num', type=int, default=6, help='number of AUs')
     parser.add_argument('--land_num', type=int, default=49, help='number of landmarks')
     parser.add_argument('--eval_batch_size', type=int, default=4, help='mini-batch size for evaluation')
-    parser.add_argument('--start_epoch', type=int, default=0, help='starting epoch')
+    parser.add_argument('--start_epoch', type=int, default=1, help='starting epoch')
     parser.add_argument('--n_epochs', type=int, default=10, help='number of total epochs')
     parser.add_argument('--num_workers', type=int, default=4)
     parser.add_argument('--mode', type=str, default='weak', choices=['weak', 'full'])
