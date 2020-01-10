@@ -1,5 +1,5 @@
 # ADLD
-This repository implements the training and testing of ADLD for [Weakly-Supervised Unconstrained Action Unit Detection via Latent Feature Domain](https://arxiv.org/pdf/1903.10143.pdf). The repository offers the implementation of the paper in PyTorch
+This repository implements the training and testing of ADLD for [Semi-Supervised Unconstrained Action Unit Detection via Latent Feature Domain](https://arxiv.org/pdf/1903.10143.pdf). The repository offers the implementation of the paper in PyTorch
 
 # Getting Started
 ## Installation
@@ -50,7 +50,7 @@ python test.py --mode='full'
 If you use this code for your research, please cite our paper:
 ```
 @article{shao2019weakly,
-  title={Weakly-Supervised Unconstrained Action Unit Detection via Latent Feature Domain},
+  title={Semi-Supervised Unconstrained Action Unit Detection via Latent Feature Domain},
   author={Shao, Zhiwen and Cai, Jianfei and Cham, Tat-Jen and Lu, Xuequan and Ma, Lizhuang},
   journal={arXiv preprint arXiv:1903.10143},
   year={2019}
