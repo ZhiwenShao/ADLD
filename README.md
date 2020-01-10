@@ -49,7 +49,7 @@ python test.py --mode='full'
 ## Citation
 If you use this code for your research, please cite our paper:
 ```
-@article{shao2019weakly,
+@article{shao2019semi,
   title={Semi-Supervised Unconstrained Action Unit Detection via Latent Feature Domain},
   author={Shao, Zhiwen and Cai, Jianfei and Cham, Tat-Jen and Lu, Xuequan and Ma, Lizhuang},
   journal={arXiv preprint arXiv:1903.10143},
