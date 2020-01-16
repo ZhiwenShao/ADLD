@@ -37,7 +37,7 @@ def align_face_49pts(img, img_land, box_enlarge, img_size):
     mat3 = np.mat([[scale, 0, scale * (halfSize - cx)], [0, scale, scale * (halfSize - cy)], [0, 0, 1]])
     mat = mat3 * mat1
 
-    aligned_img = cv2.warpAffine(img, mat[0:2, :], (img_size, img_size), cv2.INTER_CUBIC, borderValue=(128, 128, 128))
+    aligned_img = cv2.warpAffine(img, mat[0:2, :], (img_size, img_size), cv2.INTER_LINEAR, borderValue=(128, 128, 128))
 
     land_3d = np.ones((len(img_land)/2, 3))
     land_3d[:, 0:2] = np.reshape(np.array(img_land), (len(img_land)/2, 2))
