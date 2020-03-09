@@ -48,8 +48,8 @@ def align_face_49pts(img, img_land, box_enlarge, img_size):
     return aligned_img, new_land
 
 
-list_path_prefix = 'data/list/'
-write_path_prefix = 'data/imgs/'
+list_path_prefix = '../data/list/'
+write_path_prefix = '../data/imgs/'
 box_enlarge = 2.8
 img_size = 200
 
