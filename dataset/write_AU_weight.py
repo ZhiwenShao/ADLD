@@ -1,6 +1,6 @@
 import numpy as np
 
-list_path_prefix = 'data/list/'
+list_path_prefix = '../data/list/'
 
 '''
 example of content in 'BP4D_train_AUoccur.txt':
