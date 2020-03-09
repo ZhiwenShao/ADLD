@@ -55,7 +55,7 @@ img_size = 200
 
 all_imgs_path = open(list_path_prefix + 'emotioNet_test_path.txt').readlines()
 all_imgs_land = np.loadtxt('emotioNet_test_land.txt')
-// Make the landmarks be indexed from 0
+# Make the landmarks be indexed from 0
 all_imgs_land = all_imgs_land - 1
 
 if not os.path.exists(write_path_prefix):
