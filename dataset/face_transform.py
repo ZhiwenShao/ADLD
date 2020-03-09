@@ -69,7 +69,7 @@ for i in range(len(all_imgs_path)):
     full_path_prefix = full_path[:-len(sub_paths[-1])]
     if not os.path.exists(write_path_prefix + full_path_prefix):
         os.makedirs(write_path_prefix + full_path_prefix)
-    print('%d\t%s\n' % (i, sub_paths[-1]))
+    print('%d\t%s' % (i, sub_paths[-1]))
 
     img = cv2.imread(full_path)
     aligned_img, new_land = align_face_49pts(img, all_imgs_land[i], box_enlarge, img_size)
