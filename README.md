@@ -51,12 +51,12 @@ python test.py --mode='full'
 ## Citation
 If you use this code for your research, please cite our paper:
 ```
-@article{shao2019semi,
+@article{shao2021unconstrained,
   title={Unconstrained Facial Action Unit Detection via Latent Feature Domain},
   author={Shao, Zhiwen and Cai, Jianfei and Cham, Tat-Jen and Lu, Xuequan and Ma, Lizhuang},
-  journal={arXiv preprint arXiv:1903.10143},
-  year={2019}
+  journal={IEEE Transactions on Affective Computing},
+  year={2021},
+  publisher={IEEE}
 }
-
 ```
 Should you have any questions, just contact with us through email shaozhiwen@sjtu.edu.cn
