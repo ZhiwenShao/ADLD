@@ -59,4 +59,4 @@ If you use this code for your research, please cite our paper:
   publisher={IEEE}
 }
 ```
-Should you have any questions, just contact with us through email shaozhiwen@sjtu.edu.cn
+Should you have any questions, just contact with us through email zhiwen_shao@cumt.edu.cn
